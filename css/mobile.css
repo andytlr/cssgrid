@@ -1,0 +1,23 @@
+.row, .body, .container {
+width: 100%;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol {
+width: auto;
+float: none;
+margin-left: 0px;
+margin-right: 0px;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+/* Type presets */
+
+body {
+font-size: 16px;
+line-height: 24px;
+}
