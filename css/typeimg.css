@@ -8,7 +8,7 @@ body {
 font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 font-size: 14px;
 line-height: 24px;		/* Changing this will break the baseline grid. */
--webkit-text-size-adjust: none;		/* Stops the iPhone scalling type up */
+-webkit-text-size-adjust: none;		/* Stops the iPhone scaling type up */
 }
 
 a {
