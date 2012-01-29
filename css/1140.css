@@ -18,7 +18,7 @@ overflow: hidden;
 }
 
 .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
-margin-right: 3.8%;
+margin-left: 3.8%;
 float: left;
 }
 
@@ -71,8 +71,9 @@ width: 100%;
 float: left;
 }
 
-.last {
-margin-right: 0px;
+/* The first column needs no gutter space to the left */
+.first, * > .onecol:first-child, * > .twocol:first-child, * > .threecol:first-child, * > .fourcol:first-child, * > .fivecol:first-child, * > .sixcol:first-child, * > .sevencol:first-child, * > .eightcol:first-child, * > .ninecol:first-child, * > .tencol:first-child, * > .elevencol:first-child {
+margin-left: 0px;
 }
 
 img, object, embed {
