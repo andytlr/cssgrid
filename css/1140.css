@@ -18,7 +18,7 @@ overflow: hidden;
 }
 
 .onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol {
-margin-right: 3.8%;
+margin-left: 3.8%;
 float: left;
 }
 
@@ -71,8 +71,8 @@ width: 100%;
 float: left;
 }
 
-[class*="col"]:last-child {
-margin-right: 0px;
+[class*="col"]:first-child {
+margin-left: 0px;
 }
 
 .last {
