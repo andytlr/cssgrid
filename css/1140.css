@@ -71,6 +71,10 @@ width: 100%;
 float: left;
 }
 
+[class*="col"]:last-child {
+margin-right: 0px;
+}
+
 .last {
 margin-right: 0px;
 }
