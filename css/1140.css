@@ -71,12 +71,8 @@ width: 100%;
 float: left;
 }
 
-[class*="col"]:first-child {
+[class*="col"]:first-child, .last {
 margin-left: 0px;
-}
-
-.last {
-margin-right: 0px;
 }
 
 img, object, embed {
