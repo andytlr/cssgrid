@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>The 1140px Grid &middot; Fluid down to mobile</title>
+	<title>The 1140px CSS Grid System &middot; Fluid down to mobile</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
@@ -19,258 +19,226 @@
 	<!--css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers-->
 	<script type="text/javascript" src="js/css3-mediaqueries.js"></script>
 	
-	<!--Delete embedded styles, just for example.-->
-	<style type="text/css">
+	<link rel="icon" href="img/favicon.gif" type="image/gif"/>
+	<link rel="apple-touch-icon-precomposed" href="img/appletouchicon.png"/>
+		
+	<meta name="description" content="A 1140px wide, 12 column grid. Fluid all the way down to a mobile version." />
 	
-	body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	}
-	
-	.container p {
-	color: #fff;
-	line-height: 100px;
-	background: #000;
-	text-align: center;
-	margin: 20px 0 0 0;
-	}
-	
-	</style>
+	<meta name="keywords" content="1140, 1140px, grid, css grid, css, framework, 12 column, fluid, fixed, mobile, media queries, template, iphone, android, fluid grid, 1280 grid, grid system, grid framework" />
 
 </head>
 
 
 <body>
 
-<div class="container">
+<div class="container header">
 	<div class="row">
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="onecol last">
-			<p>One</p>
+		<div class="logo"><h1>A 1140px wide, 12 column grid. Fluid all the way down to a mobile version.</h1></div>
+	</div> <!--/row-->
+</div> <!--/container-->
+
+<div class="container intro">
+	<div class="row">
+	
+		<div class="fourcol">
+		
+			<div class="cc">
+				<a rel="license" href="http://creativecommons.org/licenses/by/3.0/au/"><img src="img/cc.png" alt="Creative Commons Attribution 3.0 Australia License" /></a>
+			</div>
+		
+			<div id="download">
+				<a href="http://download.cssgrid.net/1140_CssGrid_2.zip" title="Download the grid">
+				<div id="button"></div>
+				<img src="img/download.png" alt="Download" />
+				</a>
+			</div>
+			
+			<div class="social">
+				<div class="twitter">
+				<p><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="andytlr">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></p>
+				</div>
+				<div class="fb">
+				<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fcssgrid.net&amp;layout=button_count&amp;show_faces=true&amp;width=100&amp;action=like&amp;font=arial&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:85px; height:21px;" allowTransparency="true"></iframe>
+				</div>
+			</div>
+			
+		</div> <!--/fourcol-->
+		
+		<div class="sevencol last introcopy">
+			<p>The 1140 grid fits perfectly into a 1280 monitor. On smaller monitors it becomes fluid and adapts to the width of the browser.</p>
+			<p>Beyond a certain point it uses media queries to serve up a mobile version, which essentially stacks all the columns on top of each other so the flow of information still makes sense.</p>
+			<p>Scrap 1024! Design once at 1140 for 1280, and with very little extra work, it will adapt itself to work on just about any monitor, even mobile.</p>
+			<a href="http://twitter.com/andytlr" class="twitter-follow-button" data-show-count="false">Follow @andytlr</a>
+			<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+			
+			<div id="influads_block" class="influads_block"> </div>
+			<script type="text/javascript">(function(){ var acc =   "acc_167d202_pub";var st ="noCss";var or= "v";var e=document.getElementsByTagName("script")[0];var d=document.createElement("script");d.src=('https:' == document.location.protocol ?'https://' : 'http://') +"engine.influads.com/show/"+or+"/"+st+"/"+acc;d.type="text/javascript"; d.async=true; d.defer=true; e.parentNode.insertBefore(d,e);})();</script>
 		</div>
 	</div>
-</div>
+</div> <!--/container-->
 
-<div class="container">
-	<div class="row">
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="twocol last">
-			<p>Two columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="threecol last">
-			<p>Three columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
+<div class="container details">
 	<div class="row">
 		<div class="fourcol">
-			<p>Four columns</p>
+			<h2>Why 12 columns?</h2>
+			<p>Twelve divides into even columns of two, three, four or six.</p>
+			<p>Or into numerous uneven combinations like seven and five or five, four, three.</p>
+			<p>The last example is as simple as three divs with the classes <code>.fivecol</code>, <code>.fourcol</code> and <code>.threecol</code></p>
+			
+			<h2>Mobile version</h2>
+			<p>By mobile, I really mean smart phones. I'm not even attempting to support WAP phones or anything old like that. But it does work on devices that recognise 'handheld' in the style sheet media and/or media queries. With media queries you can even include x2 images for the iPhone 4 Retina Display.</p>
+			
+			<h2>Photoshop Template</h2>
+			<p>Download a Photoshop template of <a href="http://download.cssgrid.net/1140_CccGrid_Template.psd" class="ongreenlink">the grid at 1140px here</a>. It's based on how it's displayed in WebKit, so it's actually 1133px, as all browsers round sub-pixels slightly differently.</p>
+			
 		</div>
+		
 		<div class="fourcol">
-			<p>Four columns</p>
+			<h2>New computers, old computers, netbooks, tablets, smartphones, some feature phones.</h2>
+			<p>So far I've tested it on a couple of MacBooks, an iMac, a PC laptop, an old PC, an Eee PC, an iPad, an iPhone 3G, an iPhone 4, a few Android phones, a Samsung Galaxy Tab, a BlackBerry and an older Nokia.</p>
+			
+			<h2>Browser support</h2>
+			<p>It works perfectly in Chrome, Safari, Firefox, IE7 & IE8.</p>
+			<p>It works alright in IE6. IE6 doesn't support <code>max-width</code>, so the grid doesn't fix to 1140px. It spans the full width of the browser. Most people using IE6 probably don't have monitors with a resolution higher than 1280x1024 though. Images are also not restrained to the width of the column because of max-width. But the extra image is hidden, rather than breaking the layout.</p>
+			<p><strong>Note:</strong> IE6 accounts for less than 1% of total traffic to <a href="http://www.catchingzebra.com/" class="ongreenlink">my blog</a>. Check your analytics.</p>
 		</div>
+		
 		<div class="fourcol last">
-			<p>Four columns</p>
+			<h2>Bigger gutters</h2>
+			<p>Because it's all based off percentages, the gutters vary in size. But at full width the gutters are about 40px wide.</p>
+			<h2>Images</h2>
+			<p>If an image is smaller than the column it is contained in, it will be displayed at its original size. If it is larger then it will be shrunk to the width of the column. Don't define height and width of images inline, it'll break the proportions if they're scaled down.</p>
+			<a href="http://www.flickr.com/photos/andytlr/3186450801/" title="Fingers of god in Tuscany by andytlr, on Flickr"><img src="http://farm4.static.flickr.com/3379/3186450801_15413018e9.jpg" width="500" height="334" alt="Fingers of god in Tuscany" /></a>
 		</div>
-	</div>
-</div>
+	</div> <!--/row-->
+</div> <!--/container-->
 
-<div class="container">
-	<div class="row">
-		<div class="onecol">
-			<p>One</p>
-		</div>
-		<div class="elevencol last">
-			<p>Eleven columns</p>
-		</div>
-	</div>
-</div>
 
-<div class="container">
-	<div class="row">
-		<div class="twocol">
-			<p>Two columns</p>
-		</div>
-		<div class="tencol last">
-			<p>Ten columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="ninecol last">
-			<p>Nine columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
+<div class="container markup">
 	<div class="row">
 		<div class="fourcol">
-			<p>Four columns</p>
+			<h2>The markup</h2>
+			<pre>
+<span class="teal">&lt;div class="container"&gt;</span>
+  <span class="red">&lt;div class="row"&gt;</span>
+    <span class="purple">&lt;div class="threecol"&gt;</span>
+      <span class="lightgrey">&lt;p&gt;Column 1&lt;/p&gt;</span>
+    <span class="purple">&lt;/div&gt;</span>
+    <span class="purple">&lt;div class="threecol"&gt;</span>
+      <span class="lightgrey">&lt;p&gt;Column 2&lt;/p&gt;</span>
+    <span class="purple">&lt;/div&gt;</span>
+    <span class="purple">&lt;div class="threecol"&gt;</span>
+      <span class="lightgrey">&lt;p&gt;Column 3&lt;/p&gt;</span>
+    <span class="purple">&lt;/div&gt;</span>
+      <span class="purple">&lt;div class="threecol <span class="burntorange">last</span>"&gt;</span>
+    <span class="lightgrey">&lt;p&gt;Column 4&lt;/p&gt;</span>
+    <span class="purple">&lt;/div&gt;</span>
+  <span class="red">&lt;/div&gt;</span>
+<span class="teal">&lt;/div&gt;</span>
+			</pre>
 		</div>
-		<div class="eightcol last">
-			<p>Eight columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="fivecol">
-			<p>Five columns</p>
-		</div>
+		
 		<div class="sevencol last">
-			<p>Seven columns</p>
+		
+			<h2>Explanation of the classes and markup</h2>
+			<code class="teal">.container</code>
+			<p>Is a full width div that allows layouts to have a background that spans the full width of the browser. It also contains 20px padding on either side to keep content away from the edges when it becomes fluid. You can just use one big container, or use multiple to break the page horizontally.</p>
+			
+			<code class="red">.row</code>
+			<p>Is a row of columns. It centres them and defines the 1140px max-width.</p>
+			
+			<code class="purple">.onecol, .twocol, .threecol, .fourcol, .fivecol, .sixcol, .sevencol, .eightcol, .ninecol, .tencol, .elevencol, .twelvecol</code>
+			<p>Are the classes for each column. They can be used in any combination within a row that adds up to twelve or less.</p>
+			
+			<code class="burntorange">.last</code>
+			<p>The last column within a row also needs this class. It removes the right margin so all the columns fit within the row.</p>
 		</div>
-	</div>
+	</div> <!--/row-->
+</div> <!--/container-->
+
+
+<div class="ccbottom">
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/au/"><img src="img/cc.png" alt="Creative Commons Attribution-ShareAlike 3.0 Australia License" /></a>
 </div>
 
-<div class="container">
-	<div class="row">
-		<div class="sixcol">
-			<p>Six columns</p>
-		</div>
-		<div class="sixcol last">
-			<p>Six columns</p>
-		</div>
-	</div>
-</div>
 
-<div class="container">
+<div class="container paypal">
 	<div class="row">
-		<div class="sevencol">
-			<p>Seven columns</p>
-		</div>
-		<div class="fivecol last">
-			<p>Five columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="eightcol">
-			<p>Eight columns</p>
-		</div>
-		<div class="fourcol last">
-			<p>Four columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="ninecol">
-			<p>Nine columns</p>
-		</div>
-		<div class="threecol last">
-			<p>Three columns</p>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div class="row">
-		<div class="tencol">
-			<p>Ten columns</p>
-		</div>
+		<div class="tencol"></div>
 		<div class="twocol last">
-			<p>Two columns</p>
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_donations">
+			<input type="hidden" name="business" value="hello@andytlr.com">
+			<input type="hidden" name="lc" value="AU">
+			<input type="hidden" name="item_name" value="Andy Taylor - 1140px CSS Grid">
+			<input type="hidden" name="amount" value="5.00">
+			<input type="hidden" name="currency_code" value="AUD">
+			<input type="hidden" name="no_note" value="0">
+			<input type="hidden" name="currency_code" value="AUD">
+			<input type="hidden" name="bn" value="PP-DonationsBF:image:NonHostedGuest">
+			<input type="image" src="img/donate.png" border="0" name="submit" alt="Donate $5 via PayPal :)" title="Donate $5 via PayPal :)">
+			<img alt="" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1">
+			</form>			
 		</div>
 	</div>
 </div>
 
-<div class="container">
+<div class="container columns">
 	<div class="row">
-		<div class="elevencol">
-			<p>Eleven columns</p>
+		<div class="onecol">
+			
+		</div>
+		<div class="onecol">
+			
+		</div>
+		<div class="onecol">
+			
+		</div>
+		<div class="onecol">
+			
+		</div>
+		<div class="onecol">
+			
+		</div>
+		<div class="onecol">
+			
+		</div>
+		<div class="onecol">
+			
+		</div>
+		<div class="onecol">
+			
+		</div>
+		<div class="onecol">
+			
+		</div>
+		<div class="onecol">
+			
+		</div>
+		<div class="onecol">
+			
 		</div>
 		<div class="onecol last">
-			<p>One</p>
+			
 		</div>
 	</div>
 </div>
 
-<div class="container">
-	<div class="row">
-		<div class="threecol">
-			<p>Three columns</p>
-		</div>
-		<div class="sixcol">
-			<p>Six columns</p>
-		</div>
-		<div class="threecol last">
-			<p>Three columns</p>
-		</div>
-	</div>
-</div>
+<img src="img/resize.png" alt="Resize me!" id="resize" />
 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-5104693-12']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 </body>
 
