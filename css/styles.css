@@ -267,6 +267,10 @@
 		background: #5bd698 url(../img/downloadbg.png);
 		height: 20px;
 	}
+	
+	.by {
+		font-size: 18px;
+	}
 
 
 /* ============================= */
